@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HTML Introduction</title>
+</head>
+<body>
+
+<h1 style="color:blue"> This is my first day learning HTML </h1>
+<p>I'm excited to learn it... I hope its easy <br>    </p>
+
+<img src="w3schools.jpg" alt="W3Schools.com" width="100" height="130">
+<a href="https://www.w3schools.com/">Learn HTML here</a>
+
+</body>
+</html>

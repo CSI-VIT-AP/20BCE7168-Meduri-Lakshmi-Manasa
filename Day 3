@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<body <div style="background-image: url('img_girl.jpg'); background-repeat:no-repeat;">>
+
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a> 
+<a href="default.asp">
+<img src="smiley.gif" alt="HTML tutorial" title="Go to W3Schools HTML section" style="float:right;width:42px;height:42px;">
+</a>
+<a href="mailto:manasa.20bce7168@vitap.ac.in@vitap.ac.in">Mail <br> <br></a>
+
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+<p><a href="#C3">Jump to Chapter 3</a></p>
+<p><a href="#C5">Jump to Chapter 5</a></p>
+
+<h2>Chapter 1</h2>
+<p>This chapter explains <br>bla bla blaaaaa</p>
+
+<h2>Chapter 2</h2>
+<p>This chapter explains <br>bla bla blaaaaa</p>
+
+<h2 id="C3">Chapter 3</h2>
+<p>This chapter explains <br>bla bla blaaaaa</p>
+
+<h2>Chapter 4</h2>
+<p>This chapter explains <br>bla bla blaaaaa</p>
+
+<h2 id="C5">Chapter 5</h2>
+<p>This chapter explains <br>bla bla blaaaaa</p>
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+<picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg">
+</picture>
+
+<style>
+table,th,td{
+	border:1px solid black;
+    border-collapse:collapse;
+    border-style:dotted;
+}
+tr:hover {background-color: #D6EEEE;}
+th,td{
+
+border-color: #000000;
+twxt-align:center;
+padding:15px;
+}
+table{
+border-spacing:15px;
+}
+tr:nth-child(even) {
+  background-color:#fff432;;
+}
+</style>
+
+<table style=width:100%>
+  <colgroup>
+    <col span="2" style="background-color: #D6EEEE">
+  </colgroup>
+<caption>Data</caption.
+	<tr>
+    	<th>Name</th>
+    	<th>Age</th>
+    	<th>DOB</th>
+    </tr>
+    <tr>
+    	<td>Manasa</td>
+        <td>19</td>
+		<td>04/10/2002</td>
+    </tr>
+     <tr>
+    	<td>Pragnya</td>
+        <td>23</td>
+		<td>01/03/1998</td>
+    </tr>
+    <tr>
+    	<td>Sheldon</td>
+        <td>27</td>
+		<td>27/07/1994</td>
+    </tr>
+    <tr>
+    	<td>Leonard</td>
+        <td>30</td>
+		<td>13/07/1991</td>
+    </tr>
+<ul style="list-style-type:circle;">
+	<li>one</li>
+	<li>two</li>
+    <ul>
+    <li>two.one</li>
+    <li>two.two</li>
+    </ul>
+    <li>three</li>
+</ul>
+<ol type="i">
+	<li>one</li>
+	<li>two</li>
+    <li>three</li>
+</ol>
+<dl>
+	<dt>one</dt>
+    <dd>this is one</dd>
+    <dt>two</dt>
+    <dd>this is two</dd>
+    <dt>three</dt>
+    <dd>this is three</dd>
+
+</body>
+</html>
